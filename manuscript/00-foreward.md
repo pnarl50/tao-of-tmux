@@ -20,7 +20,7 @@ Oddly, even though we knew each other by our real names, we sometimes opted to
 rcall each other by our nicks. It's something about how the personal
 relationships, formed completely through text, persists in real life.
 
-It seemed as if it were orchestrated, but each of us fell into the same ebb and
+sIt seemed as if it were orchestrated, but each of us fell into the same ebb and
 flow of operating our lives. No one told us to do it, but inch by inch we
 incrementally optimized our lifestyles personally and professionally to arrive
 at destinations that felt eerily alike.  Like many things in life, when we act on 
@@ -66,8 +66,8 @@ needs or curiosities. If you do not have it installed, please view the
 First, anything involving installation and hard technical details are in the
 appendix at the back of this book. 
 
-For those whose learning preference run to the visual approach or users of Windows 10, 
-I have added screenshots.
+I have added screenshots for those whose learning preference leans to a visual 
+approach or users of Windows 10.
 
 [*Thinking Tmux*](#thinking-tmux), goes over a breakdown of what
 tmux does and how it relates to the GUI desktops we already use on our
