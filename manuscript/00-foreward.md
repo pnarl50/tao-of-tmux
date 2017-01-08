@@ -97,7 +97,7 @@ of you. You'll learn to rename and move windows, to create, delete, move between
 and copy and paste been panes.
 
 [*Panes*](#panes) A pane is a terminal in a terminal. This is where we'll leave you to
-do your own magic and get to work!
+get to work and do your own magic!
 
 [*Configuration*](#config) discusses customization of tmux, via keybindings,
 status line and behavior. You'll even learn how to show your CPU usage and
