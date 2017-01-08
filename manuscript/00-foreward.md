@@ -43,7 +43,7 @@ I am not slipshod in the work I perform.  If I'm going to take the time to write
 I'm giving it 100%.
 
 tmux to me is a tool I find incredibly helpful. It's been part of my daily life for years.
-I've helped thousands of people learn tmux through my free resource under the same name
+'ve helped thousands of people learn tmux through my free resource under the same name
 [The Tao of tmux](https://tmuxp.readthedocs.io/en/latest/about_tmux.html). I've
 written a [popular tmux starter configuration](https://github.com/tony/tmux-config),
 a [pythonic tmux library](https://github.com/tony/libtmux) and a
@@ -96,8 +96,8 @@ can manipulate and rename your session, providing a fine stepping stone to the n
 of you. You'll learn to rename and move windows, to create, delete, move between
 and copy and paste been panes.
 
-[*Panes*](#panes) - A terminal in a terminal. This is where we leave you to
-do your magic and get to work!
+[*Panes*](#panes) A pane is a terminal in a terminal. This is where we'll leave you to
+do your own magic and get to work!
 
 [*Configuration*](#config) discusses customization of tmux, via keybindings,
 status line and behavior. You'll even learn how to show your CPU usage and
