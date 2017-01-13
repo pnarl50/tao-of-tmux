@@ -31,8 +31,8 @@ text dimension. Inside tmux you can:
 |-------------------|----------------------|-----------------------------------|
 |Session            |Desktop               |Applications are visible here      |
 |-------------------|----------------------|-----------------------------------|
-|Window             |Virtual Desktop or    |A desktop that stores it own screen|
-|                   |applications          |screen			       |
+|Window             |Virtual Desktop or    |A desktop that stores its own      |
+|                   |applications          |screen			                       |
 |-------------------|----------------------|-----------------------------------|
 |Pane               |Application           |Performs operations                |
 
@@ -45,12 +45,12 @@ Heck, you even get a clock.
 
 tmux gives you prime oppurtunity to do many things at once in one screen.
 
-For one you can keep multiple terminals running on the same display.
+For one, you can keep multiple terminals running on the same display.
 
 But you also have the concept of shuffling between multiple "windows" within
-that, all within the confines of the tmux session you attached.
+that display, all within the confines of the tmux session you attached.
 
-Even better, there are facilities to copy and paste, scroll. No requirement
+Even better, there are facilities to copy and paste and scroll. No requirement
 for graphics either, so you have full power even if you're SSH'ing or in a
 tty without X.
 
@@ -76,15 +76,15 @@ Keeping a text editor like vim, emacs, pico, nano, etc. open in a main pane,
 while leaving two other open for CLI commands and building via `make` or
 `ninja`.
 
-You can see with tmux, you very quickly have the makings of an IDE! And it's on
-your terms.
+As you can see, with tmux you very quickly have the makings of an IDE! And it's on
+your own terms.
 
 ## Keep your applications running in the background
 
 {width=50%,float=right}
-![Chatting on weechat w/ tmux](images/01-thinking-tmux/weechat.png)
+![Chatting on weechat w/tmux](images/01-thinking-tmux/weechat.png)
 
-Sometimes in GUI applications you'll have an option to minimize and application
+Sometimes in GUI applications you'll have an option to minimize an application
 to a tray ground.  The application is out of the sight, but running in the
 background.
 
@@ -92,12 +92,12 @@ In tmux, a similar concept exists where we can "detach" a tmux session.
 
 This is especially cool if:
 
-- On a local machine, you start all your normal terminal applications within
-  a tmux session, you restart X. Instead of losing your processes as your
+- On a local machine you start all your normal terminal applications within
+  a tmux session, and then you restart X. Instead of losing your processes, as you
   normally would if you were using an X terminal like xterm or konsole, you'd
-  be able to `tmux attach` after and find all processes were alive and kicking
-  all along :)
-- Same applies for remote SSH applications and workspaces you run in tmux. You
+  be able to `tmux attach` and find all processes were alive and kicking all
+  along :)
+- The same applies for remote SSH applications and workspaces you run in tmux. You
   can detach your tmux workspace at work before you clock out, then next morning
   reattach your session. Ahhh. Refreshing. :) Heck, sometimes you may have one
   of those rare servers you rarely log into. Funny story, I once had caching
